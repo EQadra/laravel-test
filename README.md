@@ -74,6 +74,16 @@ Este proyecto proporciona una API RESTful para gestionar **Proyectos** y **Tarea
 
 ### API de Proyectos
 
+## Para instalar el proyecto solo hace falta:
+
+# tener instalados composer 
+# apache
+# mysql
+# descomprimir el archivo
+# php artisan migrate
+# php artisan serve
+# php artisan l5-swagger:generate
+
 El **ProjectController** expone los siguientes endpoints bajo `/api/projects`:
 
 - `GET /api/projects`: Lista los proyectos con filtros opcionales por estado, nombre y rango de fechas de creación.
